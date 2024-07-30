@@ -21,6 +21,9 @@ El dataset utilizado en este proyecto contiene información sobre despidos en di
 - **country**: País donde se realizaron los despidos.
 - **funds_raised_millions**: Cantidad de fondos recaudados por la empresa en millones de dólares.
 
+[Ver archivo completo](layoffs.csv)
+
+
 ## 1. Limpieza de Datos
 
 En este proyecto se realiza la limpieza de un conjunto de datos utilizando MySQL Workbench. Los pasos incluyen la remoción de duplicados, estandarización de datos, manejo de valores nulos y blancos, y la eliminación de columnas innecesarias.
@@ -42,8 +45,8 @@ En este proyecto se realiza la limpieza de un conjunto de datos utilizando MySQL
 ### Estandarización de datos
 ![](images_sql/images_3.png)
 
+[Ver archivo completo](Limpieza_datos.sql)
 
-[Ver archivo completo]([https://github.com/BryanTenorio/SQL-Projects/blob/main/Limpieza_Datos.sql](https://github.com/BryanTenorio/SQL-Projects/blob/84a952bc63278949e9e4fc211ed72819dd799cf0/Limpieza_datos.sql))
 
 ## 2. Análisis Exploratorio de Datos (EDA)
 
@@ -64,7 +67,16 @@ En este proyecto se realiza un análisis exploratorio del conjunto de datos limp
 - **Total Acumulado de Despidos por Mes**: Cálculo del total acumulado de despidos por mes.
 - **Top 5 Empresas con Más Despidos por Año**: Selección de las 5 empresas con más despidos por año.
 
-[Ver archivo completo](https://github.com/BryanTenorio/SQL-Projects/blob/main/EDA.sql)
+### Distribución de despidos por empresa
+![](images_sql/images_4.png)
+
+### Rango de fechas de despidos
+![](images_sql/images_5.png)
+
+### Ranking de despidos por empresa y año
+![](images_sql/images_6.png)
+
+[Ver archivo completo](EDA.sql)
 
 ## Sobre el Autor
 
