@@ -33,11 +33,17 @@ En este proyecto se realiza la limpieza de un conjunto de datos utilizando MySQL
 - **Manejo de Valores Nulos o Blancos**: Reemplazo de valores blancos por nulos y eliminación de filas con valores nulos en columnas clave.
 - **Remover Columnas Innecesarias**: Eliminación de columnas innecesarias para el análisis.
 
-### Ejemplos de Consultas
-- **Creación de Tabla de Respaldo**
+### Creación de tabla de respaldo
+![](images_sql/images_1.png)
+
+### Remoción de duplicados
+![](images_sql/images_2.png)
+
+### Estandarización de datos
+![](images_sql/images_3.png)
 
 
-[Ver archivo completo](https://github.com/BryanTenorio/SQL-Projects/blob/main/Limpieza_Datos.sql)
+[Ver archivo completo]([https://github.com/BryanTenorio/SQL-Projects/blob/main/Limpieza_Datos.sql](https://github.com/BryanTenorio/SQL-Projects/blob/84a952bc63278949e9e4fc211ed72819dd799cf0/Limpieza_datos.sql))
 
 ## 2. Análisis Exploratorio de Datos (EDA)
 
