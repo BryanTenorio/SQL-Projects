@@ -1,10 +1,25 @@
-# Proyectos de Análisis de Datos en SQL
-
-Este repositorio contiene varios proyectos de análisis de datos realizados en SQL. Cada proyecto aborda diferentes aspectos del análisis de datos, desde la limpieza de datos hasta el análisis exploratorio.
+Este repositorio contiene proyectos realizados en SQL enfocados en la limpieza de datos y el análisis exploratorio de datos (EDA). Utilizando un dataset sobre despidos en empresas, se abordaron diversos aspectos del análisis de datos.
 
 ## Tabla de Contenidos
-1. [Limpieza de Datos](#limpieza-de-datos)
-2. [Análisis Exploratorio de Datos (EDA)](#analisis-exploratorio-de-datos-eda)
+1. [Resumen del Dataset](#resumen-del-dataset)
+2. [Limpieza de Datos](#limpieza-de-datos)
+3. [Análisis Exploratorio de Datos (EDA)](#análisis-exploratorio-de-datos-eda)
+
+## Resumen del Dataset
+
+El dataset utilizado en este proyecto contiene información sobre despidos en diferentes empresas. Se ha utilizado tanto para la limpieza de datos como para el análisis exploratorio de datos (EDA).
+
+### Columnas del Dataset
+
+- **company**: Nombre de la empresa que ha realizado despidos.
+- **location**: Ubicación de la empresa o de los despidos.
+- **industry**: Industria a la que pertenece la empresa.
+- **total_laid_off**: Número total de empleados despedidos.
+- **percentage_laid_off**: Porcentaje de la fuerza laboral despedida.
+- **date**: Fecha en la que se realizaron los despidos.
+- **stage**: Etapa de la empresa (por ejemplo, startup, crecimiento, madurez).
+- **country**: País donde se realizaron los despidos.
+- **funds_raised_millions**: Cantidad de fondos recaudados por la empresa en millones de dólares.
 
 ## 1. Limpieza de Datos
 
@@ -17,6 +32,10 @@ En este proyecto se realiza la limpieza de un conjunto de datos utilizando MySQL
 - **Estandarizar los Datos**: Estandarización de las columnas de la tabla.
 - **Manejo de Valores Nulos o Blancos**: Reemplazo de valores blancos por nulos y eliminación de filas con valores nulos en columnas clave.
 - **Remover Columnas Innecesarias**: Eliminación de columnas innecesarias para el análisis.
+
+### Ejemplos de Consultas
+- **Creación de Tabla de Respaldo**
+
 
 [Ver archivo completo](https://github.com/BryanTenorio/SQL-Projects/blob/main/Limpieza_Datos.sql)
 
